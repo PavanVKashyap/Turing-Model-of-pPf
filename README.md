@@ -2,15 +2,16 @@
 A Turing model of the transition from laminar to turbulence in wall-bounded shear flows is encoded in the files. It solves a system of 2 PDE with the inclution of stochastic multiplicative noise. 
 The scripts written allows you to :
 1) Draw phase portraits of the model
-2) Explore the kinetics of the model equations in the time domain alone i.e temporal dynamcis without space for the
+2) Perfom linear instability analysis
+3) Explore the kinetics of the model equations in the time domain alone i.e temporal dynamcis without space for the
    - Noise-free system
    - Stochastic system with noise
-3) Simulate the full PDE as a a nonlinear inital value problem with options : 
+4) Simulate the full PDE as a nonlinear inital value problem for : 
    - System with OR without nonlinear advection
    - Noise-free or stohchastic
-4) A bunch of initial conditions can be constructed inluding pulses, array of pulses, pattern or a chimera of both pulses and patterns within the same domain
-5) The model can be tuned by changing the parameters suitably
-6) A weakly nonlinear analysis is included to ascertain the nature of the Turing instability : Supercritical / subcritical.
+5) A bunch of initial conditions can be constructed inluding pulses, array of pulses, pattern or a chimera of both pulses and patterns within the same domain
+6) The model can be tuned by changing the parameters suitably
+7) A weakly nonlinear analysis is included to ascertain the nature of the Turing instability : Supercritical / subcritical.
 
 The script is written in Python 3 with PyQt5 rendering the necessary GUI. 
 The python modules required are available in the requirements.txt file which can be used to setup a python environment. 
