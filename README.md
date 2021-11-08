@@ -1,5 +1,5 @@
 # Turing-Model-of-pPf
-A Turing model of the transition from laminar to turbulence in wall-bounded shear flows. It solves a system of 2 PDE with the inclution of stastic multiplicative noise. 
+A Turing model of the transition from laminar to turbulence in wall-bounded shear flows is encoded in the files. It solves a system of 2 PDE with the inclution of stastic multiplicative noise. 
 The scripts written allows you to :
 1) Draw phase portraits of the model
 2) Explore the kinetics of the model equations in the time domain alone i.e temporal dynamcis without space for the
