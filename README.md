@@ -13,9 +13,16 @@ The scripts written allows you to :
 6) The model can be tuned by changing the parameters suitably
 7) A weakly nonlinear analysis is included to ascertain the nature of the Turing instability : Supercritical / subcritical.
 
-The script is written in Python 3 with PyQt5 rendering the necessary GUI. 
-The python modules required are available in the requirements.txt file which can be used to setup a python environment. 
-The script utilizes the module Dedalus to solve the PDE. Click [here](https://dedalus-project.readthedocs.io/en/latest/) to read their documentation for installing Dedalus.
+The script is written in Python 3 with PyQt5 rendering the necessary GUI. The following python modules are necessary:
+- Dedalus : Click [here](https://dedalus-project.readthedocs.io/en/latest/) to read their documentation for installing Dedalus.
+- numpy
+- sympy
+- scipy
+- PyQt5
+- matplotlib
+- glob
+- os
+
 To run the script, copy all the files into a single folder, activate the python environment and then type :
 ```
 python3 Model_Turbulent_transition.py
