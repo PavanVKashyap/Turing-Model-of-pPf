@@ -27,3 +27,4 @@ To run the script, copy all the files into a single folder, activate the python 
 ```
 python3 Model_Turbulent_transition.py
 ```
+Click [here](https://github.com/PavanVKashyap/Turing-Model-of-pPf/blob/main/user_manual.pdf) for the user manual.
