@@ -226,14 +226,14 @@ class Main(QMainWindow, Ui_MainWindow):
         sim_toolbar = NavigationToolbar(self.sim_canvas, self)
         self.sim_plot.addWidget(sim_toolbar)
         
-        ## Start simulations
+        # Start simulations
         self.start_sim_btn.clicked.connect(self.start_simulation)
         
-        ## Pause simulations
+        # Pause simulations
         self.pause_sim_btn.clicked.connect(self.pause_simulation)
         self.sim_paused_count=0
         
-        ## Stop simulations
+        # Stop simulations
         self.stop_sim_btn.clicked.connect(self.stop_simulation)
         
         ## Add button
@@ -284,7 +284,7 @@ class Main(QMainWindow, Ui_MainWindow):
         
         self.ch_IC_list.itemSelectionChanged.connect(self.move_button_control)
         
-            
+           
 ###############################################################################################
 ###################                                                     #######################
 ###################             Functions for interaction               #######################
