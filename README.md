@@ -14,7 +14,7 @@ The scripts written allows you to :
 7) A weakly nonlinear analysis is included to ascertain the nature of the Turing instability : Supercritical / subcritical.
 
 The script is written in Python 3 with PyQt5 rendering the necessary GUI. The following python modules are necessary:
-- Dedalus v2 : Click [here](https://dedalus-project.readthedocs.io/en/v2_master/index.html) to read their documentation for installing Dedalus.
+- Dedalus v2 : Click [here](https://dedalus-project.readthedocs.io/en/v2_master/index.html) to read their documentation for installing Dedalus OR execute the Install_dedalus.sh file in bash after installing Anaconda
 - numpy
 - sympy
 - scipy
