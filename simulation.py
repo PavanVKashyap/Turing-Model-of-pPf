@@ -62,7 +62,7 @@ def solver_initialize(self):
     xbasis=de.Fourier('x',Nx,interval=(0,Lx),dealias=3/2)
     
     #Create the domain
-    domain=de.Domain([xbasis],grid_dtype='float')
+    domain=de.Domain([xbasis],grid_dtype=np.float64)
     
     #define the problem
     problem=de.IVP(domain, variables=['m','mx','w','wx'])

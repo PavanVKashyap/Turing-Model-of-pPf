@@ -1,0 +1,35 @@
+attrs==21.2.0
+cached-property @ file:///home/conda/feedstock_root/build_artifacts/cached_property_1615209429212/work
+certifi==2021.5.30
+coverage==5.5
+cycler==0.10.0
+Cython @ file:///home/conda/feedstock_root/build_artifacts/cython_1623963298809/work
+dedalus==2.2006
+docopt==0.6.2
+h5py @ file:///home/conda/feedstock_root/build_artifacts/h5py_1624405622079/work
+iniconfig==1.1.1
+kiwisolver @ file:///home/conda/feedstock_root/build_artifacts/kiwisolver_1610099769230/work
+matplotlib @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-suite_1620506037462/work
+mpi4py @ file:///home/conda/feedstock_root/build_artifacts/mpi4py_1619699285209/work
+mpmath==1.2.1
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1624399863733/work
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+packaging==21.0
+Pillow @ file:///home/conda/feedstock_root/build_artifacts/pillow_1625677820830/work
+pluggy==0.13.1
+py==1.10.0
+py-cpuinfo==8.0.0
+pyparsing==2.4.7
+PyQt5==5.12.3
+PyQt5-sip==4.19.18
+PyQtChart==5.12
+PyQtWebEngine==5.12.1
+pytest==6.2.4
+pytest-benchmark==3.4.1
+pytest-cov==2.12.1
+python-dateutil==2.8.1
+scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy_1624824888010/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+sympy==1.8
+toml==0.10.2
+tornado @ file:///home/conda/feedstock_root/build_artifacts/tornado_1610094706440/work

@@ -52,11 +52,10 @@ def Plot_phase_plots(self):
     
     ## Clear the plots
     for i in range(0,3):
-        self.PP_axs[i].cla()
         if self.cb_present[i]:
             self.cb[i].remove()
             self.cb_present[i]=False
-        
+        self.PP_axs[i].cla()
     
     ## Plot the dMdt phase space
     ctemp=np.min([np.abs(dmdt.min()),np.abs(dmdt.max())])
