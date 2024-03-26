@@ -39,7 +39,7 @@ The simulation needs python3 with the following modules:
    conda env config vars set OMP_NUM_THREADS=1
    conda env config vars set NUMEXPR_MAX_THREADS=1
    ```
-   - Install Dedalus v2 from cond-forge
+   - Install Dedalus v2 from conda-forge
    ```
    conda install -c conda-forge dedalus=2.2207.3
    ```
