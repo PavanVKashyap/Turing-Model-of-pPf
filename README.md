@@ -13,18 +13,51 @@ The scripts written allows you to :
 6) The model can be tuned by changing the parameters suitably
 7) A weakly nonlinear analysis is included to ascertain the nature of the Turing instability : Supercritical / subcritical.
 
-The script is written in Python 3 with PyQt5 rendering the necessary GUI. The following python modules are necessary:
-- Dedalus v2 : Click [here](https://dedalus-project.readthedocs.io/en/v2_master/index.html) to read their documentation for installing Dedalus OR execute the Install_Dedalus2.sh file in bash after installing [Anaconda](https://www.anaconda.com/download)
-```
-bash Install_Dedalus2.sh
-```
-- numpy
-- sympy
-- scipy
-- PyQt5
-- matplotlib
-- glob
-- os
+The script is written in Python 3 with PyQt5 rendering the necessary GUI.
+
+<strong>Note: This can execute only on a Linux or Mac operating system</strong>.
+
+The simulation needs python3 with the following modules:
+- Anaconda python distribution
+   - Please follow the installation instruction [here](https://www.anaconda.com/download) for the specific OS
+- Dedalus v2: Follow the steps below for installing Dedalus v2 after Anaconda is installed
+   - Activate the base anaconda environment
+     ```
+     conda activate
+     ```
+   - Create a python environment for Dedalus v2
+   ```
+   conda create -n dedalus2
+   conda activate dedalus2
+   ```
+   - If you havea MacOS run the following command
+   ```
+   conda config --env --set subdir osx-64
+   ```
+   - Disable multipthreading
+   ```
+   conda env config vars set OMP_NUM_THREADS=1
+   conda env config vars set NUMEXPR_MAX_THREADS=1
+   ```
+   - Install Dedalus v2 from cond-forge
+   ```
+   conda install -c conda-forge dedalus=2.2207.3
+   ```
+   - Activate the environment
+   ```
+   conda activate dedalus2
+   ```
+- Sympy module
+   - Execute the following commands in the dedalus2 environment created
+   ```
+   conda install sympy
+   ```
+- PyQt5 module
+   - Execute the following command for installing PyQt5
+   ```
+   conda install pyqt
+   ```
+Once these modules are insatlled. You are set to go !!
 
 To run the script, copy all the files into a single folder, activate the python environment and then type :
 ```
