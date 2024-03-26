@@ -47,16 +47,14 @@ The simulation needs python3 with the following modules:
    ```
    conda activate dedalus2
    ```
-- Sympy module
-   - Execute the following commands in the dedalus2 environment created
-   ```
-   conda install sympy
-   ```
-- PyQt5 module
-   - Execute the following command for installing PyQt5
-   ```
-   conda install pyqt
-   ```
+- Sympy module: Excute the following command in the dedalu2 environment
+```
+conda install sympy
+```
+- PyQt5 module: Execute the following command in the dedalus2 environment
+```
+conda install pyqt
+```
 Once these modules are insatlled. You are set to go !!
 
 To run the script, copy all the files into a single folder, activate the python environment and then type :
