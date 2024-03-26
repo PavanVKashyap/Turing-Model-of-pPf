@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+## Activate the base conda environment
+conda activate
+
 ## Install Dedalus v2
 
 echo "Installing Dedalus v2" 
