@@ -34,7 +34,7 @@ The simulation needs python3 with the following modules:
    ```
    conda config --env --set subdir osx-64
    ```
-   - Disable multithreading
+   - Disable multi-threading
    ```
    conda env config vars set OMP_NUM_THREADS=1
    conda env config vars set NUMEXPR_MAX_THREADS=1
