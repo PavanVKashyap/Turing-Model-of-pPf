@@ -13,9 +13,7 @@ The scripts written allows you to :
 6) The model can be tuned by changing the parameters suitably
 7) A weakly nonlinear analysis is included to ascertain the nature of the Turing instability : Supercritical / subcritical.
 
-The script is written in Python 3 with PyQt5 rendering the necessary GUI.
-
-<strong>Note: This can execute only on a Linux or Mac operating system</strong>.
+<strong> ---------------------------- Note: This can execute only on a Linux or Mac operating system -------------------------------- </strong>.
 
 The simulation needs python3 with the following modules:
 - Anaconda python distribution
