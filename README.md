@@ -22,19 +22,19 @@ The simulation needs python3 with the following modules:
    - Please follow the installation instruction [here](https://www.anaconda.com/download) for the specific OS
 - Dedalus v2: Follow the steps below for installing Dedalus v2 after Anaconda is installed
    - Activate the base anaconda environment
-     ```
-     conda activate
-     ```
+   ```
+   conda activate
+   ```
    - Create a python environment for Dedalus v2
    ```
    conda create -n dedalus2
    conda activate dedalus2
    ```
-   - If you havea MacOS run the following command
+   - If you have MacOS run the following command
    ```
    conda config --env --set subdir osx-64
    ```
-   - Disable multipthreading
+   - Disable multithreading
    ```
    conda env config vars set OMP_NUM_THREADS=1
    conda env config vars set NUMEXPR_MAX_THREADS=1
